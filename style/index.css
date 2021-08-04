@@ -1,0 +1,38 @@
+body {
+
+    margin: 0px;
+    background-color: #784421;
+
+}
+
+.header-img {
+
+    height: auto;
+    width: 100vw;
+
+}
+
+main {
+
+    padding: 10vw;
+    background-color: #784421;
+
+}
+
+.main-p {
+
+    text-align: center;
+
+}
+
+footer {
+
+    padding: 10vw;
+
+}
+
+.footer-p {
+
+    text-align: center;
+
+}
