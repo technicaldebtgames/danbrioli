@@ -4,7 +4,7 @@ document.getElementById("body").onscroll = function parallax() {
     console.log(scrollTop);
     var target = document.getElementById("header");
     var x = "center";
-    var y = scrollTop * 0.45;
+    var y = scrollTop * 0.4;
     target.style.backgroundPosition = x + " " + y + "px";
 
 }
