@@ -1,7 +1,23 @@
+html {
+
+    font-size: 62.5%;
+
+}
+
 body {
 
     margin: 0px;
     background-color: #784421;
+    font-size: 1.6rem;
+    font-family: monospace;
+    text-align: center;
+    color: #DDD;
+
+}
+
+header {
+
+    overflow: hidden;
 
 }
 
@@ -12,17 +28,56 @@ body {
 
 }
 
-main {
+.bw-text-card {
 
-    padding: 10vw;
-    background-color: #784421;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 2vw 2vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
 
 }
 
-.main-p {
+.padding-5vw {
 
-    text-align: center;
-    color: #DDD;
+    padding: 5vw;
+
+}
+
+.padding-0-5vw {
+
+    padding: 0 5vw;
+
+}
+
+.padding-0-15vw {
+
+    padding: 0 15vw;
+
+}
+
+.margin-5vw {
+
+    margin: 5vw;
+
+}
+
+.margin-15vw {
+
+    margin: 15vw;
+
+}
+
+.margin-0-5vw {
+
+    margin: 0 5vw;
+
+}
+
+main {
+
+    background-color: #784421;
 
 }
 
@@ -32,9 +87,16 @@ footer {
 
 }
 
-.footer-p {
+.justify-text {
 
-    text-align: center;
-    color: #DDD;
+    text-align: justify;
+    text-justify: auto;
+
+}
+
+.left-align-text {
+
+    text-align: left;
+    text-justify: auto;
 
 }
