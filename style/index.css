@@ -17,14 +17,13 @@ body {
 
 header {
 
+    padding: 50vw 0 0 0;
     overflow: hidden;
-
-}
-
-.header-img {
-
-    height: auto;
-    width: 100vw;
+    background-image: url(../img/dan_brioli_header.svg);
+    background-position: center top;
+    background-size: 100% auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
 
 }
 
@@ -72,12 +71,6 @@ header {
 .margin-0-5vw {
 
     margin: 0 5vw;
-
-}
-
-main {
-
-    background-color: #784421;
 
 }
 

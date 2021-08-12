@@ -4,16 +4,14 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Dan Brioli: Editing, writing, thinking, and development through a critical lens.</title>
+        <title>Dan Brioli: Thinking, writing, and developing through a critical lens.</title>
         <link rel="stylesheet" href="style/index.css">
 
     </head>
 
-    <body>
+    <body id="body">
 
-        <header>
-
-            <img src="img/dan_brioli_header.svg" class="header-img" alt=""/>
+        <header id="header">
 
             <div class="margin-5vw bw-text-card">
 
@@ -47,8 +45,9 @@
                     <p>Not cool.</p>
                     <p>Third, it's much easier to do weird, stylish, or experimental stuff when you aren't anchored down in a sea of dependencies. I had to drop some fun things I wanted to do because of the restrictive nature of React's rendering process, for instance. Cutting it out was an easy decision if you're like me and want to work on fun little experiences for your visitors. Maybe it's the <a href="https://imgur.com/a/6SqfGAL">game dev hobby stuff</a> that's infected my brain, but the web has become predictable, blasé, boring. We've modularized our <a href="https://www.youtube.com/watch?v=OxrsO4aIjyc">creativity and imagination</a> in an effort to produce ever more templated content.</p>
                     <p>And there are countless other reasons, too. <a href="https://www.theregister.com/2021/07/09/npm_audit_security/">Potential</a> <a href="https://www.bleepingcomputer.com/news/security/52-percent-of-all-javascript-npm-packages-could-have-been-hacked-via-weak-credentials/">security</a> <a href="https://www.usenix.org/system/files/sec19-zimmermann.pdf">issues</a>. <a href="https://en.wikipedia.org/wiki/Dependency_hell">Compatibility problems</a> if you don't <a href="https://medium.com/netscape/npm-dependency-errors-then-youre-doing-it-wrong-635160a89150">jump through</a> <a href="https://www.panaya.com/blog/modern-alm/dependency-management-mapping/">some hoops</a>. Dev console warnings and general spam because you forgot to set or unset a flag somewhere. Future changes to a package causing issues that can't be corrected without a significant amount of work on your part. Lack of <a href="https://www.freecodecamp.org/news/code-dependencies-are-the-devil-35ed28b556d/">control and ownership</a> of the code your product is built with. And on and on and on.</p>
-                    <p>Anyway, I've typed enough. There are no dependencies and no tracking here, an ode to Cory Doctorow's <a href="https://pluralistic.net/">Pluralistic</a>, perhaps. A return to a simpler time, when sites loaded many orders of magnitude faster, and when people weren't trying to divine metrics from the internet's version of chicken entrails that we call cookies. (Don't tell the marketing department I said that. They'd probably like to keep their jobs, after all.)</p>
-                    <p>Send me an email if you'd like to chat about something.</p>
+                    <p>Anyway, I've typed enough. There are no dependencies and no tracking here, an ode to Cory Doctorow's <a href="https://pluralistic.net/">Pluralistic</a>, perhaps. A return to a simpler time, when sites loaded many orders of magnitude faster, and when people weren't trying to divine metrics from the internet's version of chicken entrails that we call cookies.</p>
+                    <p>(Don't tell the marketing department I said that. They'd probably <a href="https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising">like to keep their jobs</a>, after all.)</p>
+                    <p>Send me an <a href="mailto:dan.s.brioli@gmail.com">email</a> if you'd like to chat about something.</p>
 
                 </div>
 
@@ -61,6 +60,8 @@
             <p>© Dan Brioli 2021+</p>
 
         </footer>
+
+        <script src="logic/header_image_scroll.js"></script>
 
     </body>
 
