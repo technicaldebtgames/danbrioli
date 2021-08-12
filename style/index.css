@@ -35,6 +35,13 @@ header {
 
 }
 
+p {
+
+    margin: 2rem 0;
+    line-height: 2.5rem;
+
+}
+
 .bw-text-card {
 
     color: black;
