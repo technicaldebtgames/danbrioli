@@ -18,7 +18,6 @@ body {
 header {
 
     padding: 50vw 0 0 0;
-    overflow: hidden;
     background-image: url(../img/dan_brioli_header.svg);
     background-position: center top;
     background-size: 100% auto;
