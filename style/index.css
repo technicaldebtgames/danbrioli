@@ -24,14 +24,9 @@ body {
 
 }
 
-header {
+nav {
 
-    padding: 50vw 0 0 0;
-    background-image: url(../img/dan_brioli_header.svg);
-    background-position: center top;
-    background-size: 100% auto;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
+    margin: 5vw;
 
 }
 
@@ -42,8 +37,27 @@ p {
 
 }
 
+.page-header {
+
+    padding: 50vw 0 0 0;
+    background-image: url(../img/dan_brioli_header.svg);
+    background-position: center top;
+    background-size: 100% auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+
+.page-footer {
+
+    margin: 10vw;
+
+}
+
 .bw-text-card {
 
+    padding: 5vw;
+    margin: 5vw;
     color: black;
     background-color: white;
     border-color: black;
@@ -53,58 +67,20 @@ p {
 
 }
 
-.padding-5vw {
-
-    padding: 5vw;
-
-}
-
-.padding-0-5vw {
-
-    padding: 0 5vw;
-
-}
-
-.padding-0-15vw {
-
-    padding: 0 15vw;
-
-}
-
-.margin-5vw {
-
-    margin: 5vw;
-
-}
-
-.margin-15vw {
-
-    margin: 15vw;
-
-}
-
-.margin-0-5vw {
-
-    margin: 0 5vw;
-
-}
-
-footer {
-
-    padding: 10vw;
-
-}
-
-.justify-text {
-
-    text-align: justify;
-    text-justify: auto;
-
-}
-
 .left-align-text {
 
     text-align: left;
     text-justify: auto;
+
+}
+
+.screen-reader-only {
+
+    position: absolute;
+    left: -50vw;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 
 }

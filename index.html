@@ -12,21 +12,27 @@
 
     <body id="body">
 
-        <header id="header">
+        <header id="header" class="page-header">
 
-            <div class="margin-5vw bw-text-card">
+            <div class="bw-text-card">
 
-                <p class="margin-5vw">Discarded dependencies, teemless tracking, aspirational accessibility, and weird thoughts.</p>
-                <p class="margin-5vw">Hi. I'm Dan Brioli.</p>
-                <p class="margin-5vw">Site currently under (re)construction.</p>
+                <h1 class="screen-reader-only">Dan Brioli</h1>
 
-                <nav class="margin-5vw">
+                <p>Discarded dependencies, teemless tracking, actual accessibility, and scary thoughts.</p>
+                
+                <aside>
+                    
+                    <p>Site currently under (re)construction.</p>
+                
+                </aside>
 
-                    ||
-                    <a href="mailto:dan.s.brioli@gmail.com">Email</a>
-                    |
-                    <a href="https://danbrioli.medium.com/"> Medium</a>
-                    ||
+                <nav aria-labelledby="connect-with-me">
+
+                    <span id="connect-with-me">Connect with me</span>
+                    by
+                    <a href="mailto:dan.s.brioli@gmail.com">email</a>
+                    or on 
+                    <a href="https://danbrioli.medium.com/">Medium</a>.
     
                 </nav>
 
@@ -36,9 +42,22 @@
 
         <main>
 
-            <div class="margin-0-5vw bw-text-card">
+            <article class="bw-text-card left-align-text">
 
-                <div class="margin-5vw left-align-text">
+                <!--<nav aria-labelledby="other-articles-top">
+
+                    <span id="other-articles-top">Other articles: </span>
+                    <a href="">latest</a>, <a href="">newer</a>, <a href="">older</a>, <a href="">first</a>
+
+                </nav>-->
+
+                <header>
+
+                    <h1>Talking Trash on Dependencies</h1>
+
+                </header>
+
+                <section>
 
                     <p>Let's take this moment to reevaluate our relationship with frameworks and dependencies. The old version of this site was built with React <em>purely to demonstrate that I can use React</em>. Sure, these types of modern frameworks and tools are incredibly powerful if you're writing, say, a social media app, or something to manage a bank account. Components are great. CSS pre-processors are great. Extendable UI styles are great. There is an exponentially growing world of packages out there that you can import to quickly get whatever idea you have in your head out into the world, or to cut a team's workload in half on a large project.</p>
                     <p>But...</p>
@@ -51,15 +70,30 @@
                     <p>(Don't tell the marketing department I said that. They'd probably <a href="https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising">like to keep their jobs</a>, after all.)</p>
                     <p>Send me an <a href="mailto:dan.s.brioli@gmail.com">email</a> if you'd like to chat about something.</p>
 
-                </div>
+                </section>
 
-            </div>
+                <footer>
+
+                    <p>Posted on <time datetime="2021-08-14">August 13th, 2021</time>.</p>
+
+                </footer>
+
+                <!--<nav aria-hidden="true">
+
+                    <span>Other articles: </span>
+                    <a href="">latest</a>, <a href="">newer</a>, <a href="">older</a>, <a href="">first</a>
+
+                </nav>-->
+
+            </article>
 
         </main>
 
-        <footer>
+        <footer class="page-footer">
 
-            <p>© Dan Brioli 2021+</p>
+            <p>Found a bug? <a href="mailto:dan.s.brioli@gmail.com">Send me the details!</a></p>
+
+            <small>© Dan Brioli 2021+</small>
 
         </footer>
 
