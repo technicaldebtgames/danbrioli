@@ -43,7 +43,7 @@ p {
     background-image: url(../img/dan_brioli_header.svg);
     background-position: center top;
     background-size: 100% auto;
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
     background-repeat: no-repeat;
 
 }
