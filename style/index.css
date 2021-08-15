@@ -10,19 +10,8 @@
     min-height: 100vh;
     font-size: 62.5%;
     background-color: #784421;
-    /*background-image: url(../img/dan_brioli_header.svg);
-    background-position: center 0;
-    background-size: 100% auto;
-    background-attachment: scroll;
-    background-repeat: no-repeat;*/
 
 }
-
-/*:root {
-
-    background-image: url(../img/dan_brioli_header.svg);
-
-}*/
 
 body {
 
@@ -50,7 +39,9 @@ p {
 
 .banner-image-container {
 
-    width: auto;
+    width: 100%;
+    height: 50vw;
+    position: relative;
     overflow: hidden;
 
 }
@@ -58,16 +49,14 @@ p {
 .banner-image {
 
     z-index: -1;
-    position: absolute;
-    width: 100vw;
-    top: 0;
-    left: 0;
+    position: relative;
+    height: 100%;
 
 }
 
 .page-header {
 
-    padding: 50vw 0 0 0;
+    margin: 0;
 
 }
 
