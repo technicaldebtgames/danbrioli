@@ -5,7 +5,7 @@
 
 }
 
-:root {
+/*:root {
 
     min-height: 100vh;
     font-size: 62.5%;
@@ -15,6 +15,12 @@
     background-size: 100% auto;
     background-attachment: scroll;
     background-repeat: no-repeat;
+
+}*/
+
+:root {
+
+    background-image: url(../img/dan_brioli_header.svg);
 
 }
 
