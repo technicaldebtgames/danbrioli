@@ -4,33 +4,19 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Dan Brioli: Thinking, writing, and developing through a critical lens.</title>
+        <title>Dan Brioli</title>
         <link rel="stylesheet" href="style/index.css">
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     </head>
 
-    <body id="body">
+    <body>
 
-        <div id="banner-image-container" class="banner-image-container">
+        <header>
 
-            <img id="banner-image" class="banner-image" src="img/dan_brioli_header.svg" alt="" />
+            <div>
 
-        </div>
-
-        <header id="header" class="page-header">
-
-            <div class="bw-text-card">
-
-                <h1 class="screen-reader-only">Dan Brioli</h1>
-
-                <p>Discarded dependencies, teemless tracking, actual accessibility, and scary thoughts.</p>
-                
-                <aside>
-                    
-                    <p>Site currently under (re)construction.</p>
-                
-                </aside>
+                <h1>Dan Brioli</h1>
 
                 <nav aria-labelledby="connect-with-me">
 
@@ -48,62 +34,24 @@
 
         <main>
 
-            <article class="bw-text-card left-align-text">
+            <section>
+                <p>Thanks for visiting my minimalist personal site.</p>
+                <p>I've been writing stuff, instead of doing my usual web development. Kind of the same job, really. Type things according to grammatical rules, hope the things don't break.</p>
+            </section>
 
-                <!--<nav aria-labelledby="other-articles-top">
-
-                    <span id="other-articles-top">Other articles: </span>
-                    <a href="">latest</a>, <a href="">newer</a>, <a href="">older</a>, <a href="">first</a>
-
-                </nav>-->
-
-                <header>
-
-                    <h1>Talking Trash on Dependencies</h1>
-
-                </header>
-
-                <section>
-
-                    <p>Let's take this moment to reevaluate our relationship with frameworks and dependencies. The old version of this site was built with React <em>purely to demonstrate that I can use React</em>. Sure, these types of modern frameworks and tools are incredibly powerful if you're writing, say, a social media app, or something to manage a bank account. Components are great. CSS pre-processors are great. Extendable UI styles are great. There is an exponentially growing world of packages out there that you can import to quickly get whatever idea you have in your head out into the world, or to cut a team's workload in half on a large project.</p>
-                    <p>But...</p>
-                    <p>First, this site doesn't need that type of power. I'm not dynamically loading components based on a horde of API calls to 18 different services. Using a modern front-end framework, I get all of the power, which I then do nothing with since I don't need it, and we all finally get to suffer the slower loading and rendering that these frameworks bring with them.</p>
-                    <p>Second, relying on many dependencies makes you kind of lazy and dumb. There, I said it. I know, we aren't supposed to say this stuff in polite society, but it's true. You forget the minutiae involved in building a product or site from the <em>actual</em> ground up. You don't even know where the ground <em>is</em> anymore because it's built on a mountain of dependencies! You forget the intricate details and idiosyncrasies of working with vanilla JS, boring old CSS, and actually crafting your own html requests and state management. And, when you forget these things, you inevitably introduce bloat into everything you ever work on, because <em>now you've introduced these dependencies into your brain</em>. Every project becomes less of you programming and more of you remembering which dependency you need to import to do the thing you forgot how to program yourself.</p>
-                    <p>Not cool.</p>
-                    <p>Third, it's much easier to do weird, stylish, or experimental stuff when you aren't anchored down in a sea of dependencies. I had to drop some fun things I wanted to do because of the restrictive nature of React's rendering process, for instance. Cutting it out was an easy decision if you're like me and want to work on fun little experiences for your visitors. Maybe it's the <a href="https://imgur.com/a/6SqfGAL">game dev hobby stuff</a> that's infected my brain, but the web has become predictable, blasé, boring. We've modularized our <a href="https://www.youtube.com/watch?v=OxrsO4aIjyc">creativity and imagination</a> in an effort to produce ever more templated content.</p>
-                    <p>And there are countless other reasons, too. <a href="https://www.theregister.com/2021/07/09/npm_audit_security/">Potential</a> <a href="https://www.bleepingcomputer.com/news/security/52-percent-of-all-javascript-npm-packages-could-have-been-hacked-via-weak-credentials/">security</a> <a href="https://www.usenix.org/system/files/sec19-zimmermann.pdf">issues</a>. <a href="https://en.wikipedia.org/wiki/Dependency_hell">Compatibility problems</a> if you don't <a href="https://medium.com/netscape/npm-dependency-errors-then-youre-doing-it-wrong-635160a89150">jump through</a> <a href="https://www.panaya.com/blog/modern-alm/dependency-management-mapping/">some hoops</a>. Dev console warnings and general spam because you forgot to set or unset a flag somewhere. Future changes to a package causing issues that can't be corrected without a significant amount of work on your part. Lack of <a href="https://www.freecodecamp.org/news/code-dependencies-are-the-devil-35ed28b556d/">control and ownership</a> of the code your product is built with. And on and on and on.</p>
-                    <p>Anyway, I've typed enough. There are no dependencies and no tracking here, an ode to Cory Doctorow's <a href="https://pluralistic.net/">Pluralistic</a>, perhaps. A return to a simpler time, when sites loaded many orders of magnitude faster, and when people weren't trying to divine metrics from the internet's version of chicken entrails that we call cookies.</p>
-                    <p>(Don't tell the marketing department I said that. They'd probably <a href="https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising">like to keep their jobs</a>, after all.)</p>
-                    <p>Send me an <a href="mailto:dan.s.brioli@gmail.com">email</a> if you'd like to chat about something.</p>
-
-                </section>
-
-                <footer>
-
-                    <p>Posted on <time datetime="2021-08-14">August 13th, 2021</time>.</p>
-
-                </footer>
-
-                <!--<nav aria-hidden="true">
-
-                    <span>Other articles: </span>
-                    <a href="">latest</a>, <a href="">newer</a>, <a href="">older</a>, <a href="">first</a>
-
-                </nav>-->
-
-            </article>
+            <section>
+                <p>I'm experimenting with a new "series" style of content on Medium:</p>
+                <p><a href="https://superjumpmagazine.com/whats-in-a-game-7b0ab44454a0">What's in a Game?</a> explores various game designers' definitions of the word <em>game</em>.</p>
+                <p><a href="https://medium.com/politically-speaking/the-only-ones-who-cared-65af298e96ec">The Only Ones Who Cared</a> explores SIGAR's <em>What We Need to Learn</em> report. It's ugly and depressing.</p>
+            </section>
 
         </main>
 
-        <footer class="page-footer">
-
-            <p>Found a bug? <a href="mailto:dan.s.brioli@gmail.com">Send me the details!</a></p>
+        <footer>
 
             <small>© Dan Brioli 2021+</small>
 
         </footer>
-
-        <script src="logic/header_image_scroll.js"></script>
 
     </body>
 
