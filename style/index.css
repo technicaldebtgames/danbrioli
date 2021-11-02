@@ -9,7 +9,7 @@
 
     min-height: 100vh;
     font-size: 62.5%;
-    background-color: #EEE;
+    background-color: white;
 
 }
 
@@ -20,7 +20,7 @@ body {
     font-size: 1.6rem;
     font-family: monospace;
     text-align: left;
-    color: #111;
+    color: black;
 
 }
 
